@@ -11,7 +11,7 @@
     </main>
 
     <main>
-        
+        <button onclick="voltarParaPagAnt()">VOLTAR</button>
     </main>
 
     
@@ -20,6 +20,10 @@
 <script>
     function chamarPrompt(){
         var novo = prompt("Digite nome, endereço, telefone e e-mail do novo cadastro")
+    }
+
+    function voltarParaPagAnt(){
+        window.history.back();
     }
 </script>
 </html>
