@@ -1,9 +1,30 @@
 
 /* Para chamar por id usa #*/
 body{
-
-}
-#imagemfundo{
+    
+    margin: 0;
+    padding: 0;
     
 
+}
+
+h1{
+    margin-left: 50px;
+    position: absolute;
+}
+
+p{
+
+    margin-left: 50px;
+}
+
+#imagemfundo{
+
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    position: fixed;
+    display: block;
+
+        
 }
